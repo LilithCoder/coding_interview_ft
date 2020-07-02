@@ -15,4 +15,4 @@ describe how q1 works
 ```
 
 ## Daily Log
-### [Leetcode Q1](https://github.com/weilingao/coding_interview_ft/blob/master/Leetcode/java_src/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.java) (2020/05/18 23:30)
+### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
