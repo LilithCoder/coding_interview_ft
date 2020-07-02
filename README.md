@@ -7,7 +7,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 ## Source Links
 - [Leetcode Java source code](https://github.com/weilingao/coding_interview_ft/tree/master/Leetcode/java_src)
 ## Categories
-- [Array](Array)
+- [Array](#Array)
 ## Array
 ### [Leetcode Q1](https://github.com/weilingao/coding_interview_ft/blob/master/Leetcode/java_src/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.java)
 ```bash
