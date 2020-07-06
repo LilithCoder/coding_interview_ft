@@ -10,6 +10,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [Array](#Array)
 - [Dynamic Programming](#Dynamic_Programming)
 - [Hash Table](#Hash_Table)
+- [Linked List](#Linked_List)
 ## Array
 [Leetcode Q1](https://github.com/weilingao/coding_interview_ft/blob/master/Leetcode/java_src/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.java) Two Sum (两数之和)
 > ByteDance
@@ -34,9 +35,18 @@ You should always consider the edge case, that is the length of substring[i + 1,
 
 ## Hash_Table
 [Leetcode Q3]() Longest Substring Without Repeating Characters (无重复字符的最长子串)
+> ByteDance, Huawei
 ```
 Using sliding window and hashset to find substring without repeating characters starting from each index, find the largest length
 ```
+## Linked_List
+[Leetcode Q2]() Add Two Numbers (两数相加)
+> ByteDance, Huawei
+```
+Using the linkedlist to add two numbers. It is necessary to notice edge cases: null, carry
+```
+![Alt text](pic/q2_1.png)
+![Alt text](pic/q2_2.png)
 
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
