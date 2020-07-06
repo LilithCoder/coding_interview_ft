@@ -12,7 +12,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [Hash Table](#Hash_Table)
 - [Linked List](#Linked_List)
 ## Array
-[Leetcode Q1](https://github.com/weilingao/coding_interview_ft/blob/master/Leetcode/java_src/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.java) Two Sum (两数之和)
+[Leetcode Q1](Leetcode/java_src/1.两数之和.java) Two Sum (两数之和)
 > ByteDance
 ```
 1. Brute force: loop twice the given array, find two number sum equals to the target, then return index pairs 
@@ -24,7 +24,7 @@ O(n):2 ms
 ```
 
 ## Dynamic_Programming
-[Leetcode Q5](https://github.com/weilingao/coding_interview_ft/blob/master/Leetcode/java_src/5.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.java) Longest Palindromic Substring (最长回文子串) 
+[Leetcode Q5](Leetcode/java_src/5.最长回文子串.java) Longest Palindromic Substring (最长回文子串) 
 > ByteDance, Huawei
 ```
 1. Dynamic programming: dp[i][j] = (s[i] == s[j]) and (dp[i + 1][j - 1]), when traverse the dp matrix, you should consider that the result dp[i][j] always relies on the leftdown dp element(dp[i + 1][j - 1]), so we need to traverse column first then row, since j always > i, consider the pic below.
@@ -34,19 +34,26 @@ You should always consider the edge case, that is the length of substring[i + 1,
 ![Alt text](pic/q5.png)
 
 ## Hash_Table
-[Leetcode Q3]() Longest Substring Without Repeating Characters (无重复字符的最长子串)
+[Leetcode Q3](Leetcode/java_src/3.无重复字符的最长子串.java) Longest Substring Without Repeating Characters (无重复字符的最长子串)
 > ByteDance, Huawei
 ```
 Using sliding window and hashset to find substring without repeating characters starting from each index, find the largest length
 ```
 ## Linked_List
-[Leetcode Q2]() Add Two Numbers (两数相加)
+[Leetcode Q2](Leetcode/java_src/2.两数相加.java) Add Two Numbers (两数相加)
 > ByteDance, Huawei
 ```
 Using the linkedlist to add two numbers. It is necessary to notice edge cases: null, carry
 ```
 ![Alt text](pic/q2_1.png)
 ![Alt text](pic/q2_2.png)
+
+## Stack
+[Leetcode Q10](Leetcode/java_src/20.有效的括号.java)Valid Parentheses (有效的括号)
+> ByteDance
+```
+Using stack to solve this problem, the Symmetry of these signs
+```
 
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
