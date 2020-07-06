@@ -13,11 +13,11 @@ class Solution {
         int max_length = 0;
         while (left < s.length() && right < s.length()) {
             if (set.contains(s.charAt(right))) {
-                max_length = Math.max(max_length, right - 1 - left + 1);
                 set.remove(s.charAt(left));
                 left++;
             } else {
                 set.add(s.charAt(right));
+                max_length = Math.max(max_length, right - left + 1);
                 right++;
             }
         }
