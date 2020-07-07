@@ -9,6 +9,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [Python source code](interview_code/python_src)
 ## Interview questions collection
 - [ByteDance Interview Questions](interview_questions/ByteDance_backend.md)
+## Algorithm topics collection
 ## Coding Questions Categories w/ Explanations
 - [Array](interview_code/Array.md)
 - [Dynamic Programming](interview_code/Dynamic_Programming.md)

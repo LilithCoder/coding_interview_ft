@@ -7,3 +7,10 @@ You should always consider the edge case, that is the length of substring[i + 1,
 
 ```
 ![Alt text](pic/q5.png)
+
+[Leetcode Q121](java_src/121.买卖股票的最佳时机.java) Best Time to Buy and Sell Stock (买卖股票的最佳时机) 
+> ByteDance
+```
+1. Dynamic programming: 前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
+
+```
