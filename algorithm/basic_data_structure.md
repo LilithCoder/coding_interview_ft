@@ -3,7 +3,6 @@
 >[队列(Queue)](#队列(Queue)),
 >[链表(LinkedList)](#链表(LinkedList))
 ## 栈(Stack)
----
 在栈中，从集合中删除的元素是最近插入的元素：栈实现了后进先出或LIFO策略。
 
 栈上的INSERT操作通常称为压入(PUSH)，不带元素参数的DELETE操作通常称为弹出(POP)。
@@ -37,7 +36,6 @@ else S.top = S.top - 1
 三个栈操作中的每一个都需要O(1)时间。
 
 ## 队列(Queue)
----
 在队列中，删除的元素始终是集合中存在时间最长的元素：队列实施先进先出或FIFO策略。
 
 队列上的INSERT操作称为入队(ENQUEUE)，DELETE操作称为出队(DEQUEUE)，像栈操作POP一样，DEQUEUE操作不带任何元素参数。
@@ -65,7 +63,6 @@ return x
 
 每个队列操作花费O(1)时间。
 ## 链表(LinkedList)
----
 双向链表L的每个元素都是一个对象，其具有key和两个指针：next和prev。 给定链表中的元素x，如果x.prev == NIL，则元素x没有前任元素，因此是链表中的第一个元素或头。 如果x.next == NIL，则元素x没有后继元素，因此是链表的最后一个元素或结尾。 属性L.head指向链表的第一个元素。 如果L.head == NIL，则链表为空。
 
 ![](pic/linkedlist.png)
