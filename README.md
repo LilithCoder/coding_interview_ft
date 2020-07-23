@@ -12,6 +12,13 @@ This is a brand-new repository which record the whole process of my full-time jo
 ## Algorithm review
 - [数据结构 Data Structures](algorithm/data_structure.md)
 - [排序 Sorting Algoritms](algorithm/sorting_algoritms.md)
+- [查找 Searching](algorithm/searching.md)
+- [动态规划 Dynamic Programming](algorithm/dynamic_programming.md)
+- [贪心算法 Greedy Algorithms](algorithm/greedy_algorithm.md)
+- [图算法 Graph Algorithms](algorithm/graph_algorithm.md)
+- [分治策略 Divide and Conquer](algorithm/divide_and_conquer.md)
+- [字符串 Strings](algorithm/strings.md)
+- [高级数据结构 Advanced Data Structures](algorithm/advanced_data_structures.md)
 ## Coding Questions Categories w/ Explanations
 - [Array](interview_code/Array.md)
 - [Dynamic Programming](interview_code/Dynamic_Programming.md)
@@ -23,7 +30,15 @@ This is a brand-new repository which record the whole process of my full-time jo
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
 
-## Job search record
-2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process)
+## Job hunting record
+2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process) —> (笔试通过，面试中☑️)
 
-2020/07/03: [Bytedance backend-tiktok](https://job.bytedance.com/campus/position/detail/6835619069605972237) (in-process)
+2020/07/03: [Bytedance backend-tiktok](https://job.bytedance.com/campus/position/detail/6835619069605972237) (terminated) -> (简历筛选未通过✖️)
+
+2020/07/22: [Dji 操作系统工程师](https://we.dji.com/zh-CN/position/detail?positionId=1278541355841789952) (in-process)
+
+2020/07/22: [阿里巴巴 基础平台研发工程师](https://campus.alibaba.com/position.htm?spm=a1z3e1.11770907.0.0.1ee64b25YPY900&refno=12478)(2020/07/24 4:00 a.m笔试)
+
+2020/07/22: [Facebook Software Engineer, University Grad](https://www.facebook.com/careers/jobs/1559217084255670/) (in-process)
+
+2020/07/22: [研发工程师 推荐搜索方向](https://app.mokahr.com/campus_apply/bilibili01/6205#/job/f6a1ecda-fa3b-4e2d-9e19-ebfc228ca9fc?_k=1v8lj6) (in-process 初筛)
