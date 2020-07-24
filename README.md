@@ -42,3 +42,5 @@ This is a brand-new repository which record the whole process of my full-time jo
 2020/07/22: [Facebook Software Engineer, University Grad](https://www.facebook.com/careers/jobs/1559217084255670/) (in-process)
 
 2020/07/22: [研发工程师 推荐搜索方向](https://app.mokahr.com/campus_apply/bilibili01/6205#/job/f6a1ecda-fa3b-4e2d-9e19-ebfc228ca9fc?_k=1v8lj6) (in-process 初筛)
+
+2020/07/23: [PayPal SDE New grad In San Jose](https://jobsearch.paypal-corp.com/en-US/job/software-engineer-university-graduate/J3N6XK609RZPM02XGWM)

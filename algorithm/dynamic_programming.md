@@ -1,6 +1,6 @@
 # 动态规划 Dynamic Programming
 >[动态规划基础](#动态规划基础),
->[选择排序(Selection_Sort)](#选择排序(Selection_Sort)),
+>[钢条切割(Rod cutting)](#钢条切割(Rod_cutting)),
 
 注：带*为没理解的知识点
 
@@ -23,5 +23,97 @@
 
 （4）由计算出的结果构造一个最优解
 
-#### 钢条切割
-问题描述：给定一段长度为n的钢条和一个价格表pi，求切割钢条方案，使得销售收益rn最大
+## 钢条切割(Rod_cutting)
+---
+问题描述：给定一段长度为n的钢条和一个价格表pi，求切割钢条方案，使得销售收益rn最大。
+
+#### 解法1：递归
+
+如果一个最优解将钢条切割为k段，那么最优切割方案：
+
+n = i1 + i2 + ... + ik
+
+得到最大收益: 
+
+rn = pi1 + pi2 + ... + pin
+
+更一般地，对于n >= 1：
+
+rn = max(pn, r1 + rn-1, r2 + rn-2, ..., rn-1 + r1)
+
+当完成首次切割后，将两段钢条看成两个独立的钢条切割问题实例，通过组合两个相关问题的最优解，在所有可能的两段切割方案中选取组合收益最大者，构成原问题的最优解。钢条切割问题满足最优子结构性质：一个问题的最优解由相关子问题的最优解组合在一起，这些子问题可以独立求解。
+
+#### 解法2: 递归
+
+将钢条从左边切割下长度为i的一段，只对右边剩下的长度为n-i的一段继续进行切割，对左边的一段不再进行切割：
+
+rn = max(pi + rn-i), 1<=i<=n
+
+```bash
+自顶向下递归：
+CUT-ROD(p,n):
+    if n == 0:
+        return 0
+    q = -∞
+    for i = 1 to n
+        q = max(q, p[i] + CUT-ROD[p,n-i])
+```
+但是这个解法的效率差，它反复地求解相同的子问题，每个结点的标号对应子问题的规模n，因此，从父节点s到子结点t的边表示从钢条左端切下长度为s-t的一段，然后继续递归求解剩余的规模为t的子问题
+![](pic/jiefa2.png)
+
+#### 解法3: 动态规划（两种等价的实现方法）
+第一种方法是带备忘的自顶向下法(top-down with memoization)，此方法按照递归形式编写，但过程会保存每个子问题的解
+```bash
+MEMOIZED-CUT-ROD(p, n):
+    let r[0..n] be a new array
+    for i = 0 to n:
+        r[i] = -∞
+    return MEMOIZED-CUT-ROD-AUX(p, n, r)
+
+MEMOIZED-CUT-ROD-AUX(p, n, r):
+    if r[n] >= 0:
+        return r[n]
+    if n == 0:
+        q = 0
+    else q == -∞
+        for i = 1 to n:
+            q = max(q, p[i] + MEMOIZED-CUT-ROD-AUX[p, n-i], r)
+    r[n] = q
+    return q
+```
+
+第二种方法称为自底向上法(bottom-up method)，将子问题按规模排序，因为任何子问题的求解都只依赖于更小子问题的求解，当求解某个子问题时，它所依赖的那么更小的子问题都已经求解完毕并保存。对于任何子问题，直至它依赖的所有子问题均已经求解完成，才会求解它。求解规模为j的子问题的方法与带备忘的自顶向下法采用的方法相同，只是现在直接访问数组与元素r[j-i]来获得规模为j-i的子问题的解，而不必进行递归调用
+```bash
+BOTTOM-UP-CUT-ROD(p, n)
+let r[0..n] be a new array
+r[0] = 0
+for j = 1 to n:
+    q = -∞
+    for i = 1 to j:
+        q = max(q, p[i] + r[j - i])
+    r[j] = q
+return r[n]
+```
+##### 重构解(Reconstructing a solution)
+前文两种动态规划的解法只返回了最优解的受益值，但未返回解本身（切割后每段钢条的长度），下面扩展动态规划算法，保存最优受益值和相对应的切割方案
+```bash
+s[j]中保存的是在求解规模为j的子问题时第一段钢条的最优切割长度
+EXTENDED-BOTTOM-UP-CUT-ROD(p, n):
+    let r[0..n] and s[0..n] be new arrays
+    r[0] = 0
+    for j = 1 to n:
+        q = -∞
+        for i = 1 to j:
+            if q < p[i] + r[j - i]
+                q = p[i] + r[j - i]
+                s[j] = i
+        r[j] = q
+    return r and s
+```
+结果样例：
+
+![](pic/cut-result.png)
+
+n = 7时候，最优方案为1+6
+
+## 动态规划原理
