@@ -1,10 +1,13 @@
 # 数据结构 Data Structures
 >[栈(Stack)](#栈(Stack)),
 >[队列(Queue)](#队列(Queue)),
->[链表(LinkedList)](#链表(LinkedList)),
+>[链表(LinkedList)](#链表(LinkedList))
+
 >[二叉树(Binary_Tree)](#二叉树(Binary_Tree)),
->[分支无限制的有根树(Rooted_trees_with_unbounded_branching)](#分支无限制的有根树(Rooted_trees_with_unbounded_branching)),
->[哈希表(Hash_Table)](#哈希表(Hash_Table)),
+>[分支无限制的有根树](#分支无限制的有根树(Rooted_trees_with_unbounded_branching))
+
+>[哈希表(Hash_Table)](#哈希表(Hash_Table))
+
 >[二叉搜索树(Binary_Search_Trees)](#二叉搜索树(Binary_Search_Trees)),
 >[红黑树(Red-Black_Trees)](#红黑树(Red-Black_Trees))
 

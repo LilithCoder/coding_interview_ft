@@ -1,10 +1,13 @@
 # 排序 Sorting Algoritms
->[排序算法基础](#排序算法基础),
+>[排序算法基础](#排序算法基础)
+
 >[选择排序(Selection_Sort)](#选择排序(Selection_Sort)),
 >[插入排序(Insertion_Sort)](#插入排序(Insertion_Sort)),
->[希尔排序(Shell_Sort)](#希尔排序(Shell_Sort)),
+>[希尔排序(Shell_Sort)](#希尔排序(Shell_Sort))
+
 >[归并排序(Merge_Sort)](#归并排序(Merge_Sort)),
->[快速排序(Quick_Sort)](#快速排序(Quick_Sort)),
+>[快速排序(Quick_Sort)](#快速排序(Quick_Sort))
+
 >[堆排序(Heap_Sort)](#堆排序(Heap_Sort))
 
 注：带*为没理解的知识点
