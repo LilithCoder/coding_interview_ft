@@ -185,6 +185,7 @@ public class DepthFirstSearch {
 ```
 
 ## 连通分量(Connected-components)
+---
 深度优先搜索的直接应用就是找出一幅图的所有连通分量
 ```bash
 使用深度优先搜索找出图中的所有连通分量:

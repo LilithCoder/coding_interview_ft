@@ -31,16 +31,17 @@ This is a brand-new repository which record the whole process of my full-time jo
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
 
 ## Job hunting record
-2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process) —> (笔试通过，面试中☑️)北京时间 2020年07月30日 9:30:00 AM
+2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process) —> (笔试通过，面试中☑️) 2020年07月29日 18:30 AM
 
 2020/07/03: [Bytedance backend-tiktok 提前批](https://job.bytedance.com/campus/position/detail/6835619069605972237) (terminated) -> (简历筛选未通过✖️)
 
 2020/07/22: [Dji 操作系统工程师](https://we.dji.com/zh-CN/position/detail?positionId=1278541355841789952) (in-process)
 
-2020/07/22: [阿里巴巴 基础平台研发工程师](https://talent.alibaba.com/campus-position/12478?spm=a1z9iw.13825180.0.0.4db93ae7T85BXD)(2020/07/24 4:00 a.m笔试)
+2020/07/22: [阿里巴巴 基础平台研发工程师](https://talent.alibaba.com/campus-position/12478?spm=a1z9iw.13825180.0.0.4db93ae7T85BXD)(2020/07/28 18:00 p.m笔试)
 
 2020/07/22: [Facebook Software Engineer, University Grad](https://www.facebook.com/careers/jobs/1559217084255670/) (in-process)
 
 2020/07/22: [研发工程师 推荐搜索方向](https://app.mokahr.com/campus_apply/bilibili01/6205#/job/f6a1ecda-fa3b-4e2d-9e19-ebfc228ca9fc?_k=1v8lj6) (in-process 初筛)
 
 2020/07/23: [PayPal SDE New grad In San Jose](https://jobsearch.paypal-corp.com/en-US/job/software-engineer-university-graduate/J3N6XK609RZPM02XGWM)
+
