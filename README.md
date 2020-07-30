@@ -25,7 +25,9 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [Hash Table](interview_code/Hash_Table.md)
 - [Linked List](interview_code/Linked_List.md)
 - [Stack](interview_code/Stack.md)
-
+- [DFS](interview_code/dfs.md)
+- [BFS](interview_code/bfs.md)
+- [Math](interview_code/math.md)
 
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)

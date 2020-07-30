@@ -14,3 +14,11 @@ You should always consider the edge case, that is the length of substring[i + 1,
 1. Dynamic programming: 前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
 
 ```
+
+[Leetcode Q221](java_src/221.最大正方形.java) Maximal Square (最大正方形)
+> Huawei
+```
+用dp(i,j)表示以(i,j) 为右下角，且只包含1的正方形的边长最大值。如果我们能计算出所有dp(i,j)的值，那么其中的最大值即为矩阵中只包含1的正方形的边长最大值，其平方即为最大正方形的面积。
+dp(i,j)=min(dp(i−1,j),dp(i−1,j−1),dp(i,j−1))+1
+```
+![](pic/221.png)
