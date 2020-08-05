@@ -20,26 +20,32 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [字符串 Strings](algorithm/strings.md)
 - [高级数据结构 Advanced Data Structures](algorithm/advanced_data_structures.md)
 ## Coding Questions Categories w/ Explanations
-- [Array](interview_code/Array.md)
-- [Dynamic Programming](interview_code/Dynamic_Programming.md)
-- [Hash Table](interview_code/Hash_Table.md)
-- [Linked List](interview_code/Linked_List.md)
-- [Stack](interview_code/Stack.md)
+- [数组](interview_code/Array.md)
+- [动态规划](interview_code/Dynamic_Programming.md)
+- [哈希表](interview_code/Hash_Table.md)
+- [链表](interview_code/Linked_List.md)
+- [栈](interview_code/Stack.md)
 - [DFS](interview_code/dfs.md)
 - [BFS](interview_code/bfs.md)
-- [Math](interview_code/math.md)
+- [数与位](interview_code/math.md)
+- [双指针](interview_code/two_pointers.md)
+- [二分查找](interview_code/binary_search.md)
+- [回溯算法](interview_code/backtracking.md)
+- [滑动窗口](interview_code/slidingwindow.md)
+- [二叉搜索树操作](interview_code/bstoperation.md)
+- [高效寻找素数](interview_code/primenumber.md)
 
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
 
 ## Job hunting record
-2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process) —> (笔试通过，面试中☑️) 2020年07月29日 18:30 AM
+2020/05: [Huawei SDE](http://career.huawei.com/reccampportal/portal5/campus-recruitment-detail.html?jobId=96297) (in-process) —> (笔试通过，面试中☑️) 2020年07月29日 18:30 AM 2020年08月03日*
 
 2020/07/03: [Bytedance backend-tiktok 提前批](https://job.bytedance.com/campus/position/detail/6835619069605972237) (terminated) -> (简历筛选未通过✖️)
 
-2020/07/22: [Dji 操作系统工程师](https://we.dji.com/zh-CN/position/detail?positionId=1278541355841789952) (in-process)
+2020/07/22: [Dji 操作系统工程师](https://we.dji.com/zh-CN/position/detail?positionId=1278541355841789952) (in-process) 07/31收到测评*
 
-2020/07/22: [阿里巴巴 基础平台研发工程师](https://talent.alibaba.com/campus-position/12478?spm=a1z9iw.13825180.0.0.4db93ae7T85BXD)(2020/07/28 18:00 p.m笔试)
+2020/07/22: [阿里巴巴 基础平台研发工程师](https://talent.alibaba.com/campus-position/12478?spm=a1z9iw.13825180.0.0.4db93ae7T85BXD)(2020/07/28 18:00 p.m笔试) 测评未完成*
 
 2020/07/22: [Facebook Software Engineer, University Grad](https://www.facebook.com/careers/jobs/1559217084255670/) (in-process)
 
@@ -47,3 +53,6 @@ This is a brand-new repository which record the whole process of my full-time jo
 
 2020/07/23: [PayPal SDE New grad In San Jose](https://jobsearch.paypal-corp.com/en-US/job/software-engineer-university-graduate/J3N6XK609RZPM02XGWM)
 
+2020/07/31: [亚马逊 全职校招](https://www.amazon.jobs/zh/jobs/1204412/software-development-engineer-2021-united-states)
+
+2020/07/03: [后端开发工程师-抖音 正式批](https://job.bytedance.com/campus/position/detail/6835619069605972237) (in-process) -> ()

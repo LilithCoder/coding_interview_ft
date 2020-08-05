@@ -179,7 +179,7 @@ public static void partition(int[] arr, int low, int high) {
     int pivot = arr[high];
     // 初始化会被放到pivot左边的较小元素的index
     int i = low - 1;
-    for (int j = low, j <= high - 1; j++) {
+    for (int j = low; j <= high - 1; j++) {
         if (arr[j] < pivot) {
             i++;
             // 交换arr[i]和arr[j]
