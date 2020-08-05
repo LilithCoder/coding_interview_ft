@@ -2,6 +2,17 @@
 > [数组中的动态规划](#数组中的动态规划),
 > [矩阵中的动态规划](#矩阵中的动态规划)
 
+动态规划的框架
+```
+# 初始化 base case
+dp[0][0][...] = base
+# 进行状态转移
+for 状态1 in 状态1的所有取值：
+    for 状态2 in 状态2的所有取值：
+        for ...
+            dp[状态1][状态2][...] = 求最值(选择1，选择2...)
+```
+
 ## 数组中的动态规划
 ---
 [Leetcode Q70](java_src/70.爬楼梯.java) 爬楼梯
@@ -44,4 +55,14 @@ You should always consider the edge case, that is the length of substring[i + 1,
 ```
 dp[i] 代表以第i个数结尾的「连续子数组的最大和」，那么很显然我们要求的答案就是：dp中最大
 dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+```
+
+[Leetcode Q509](java_src/509.java) 斐波那契数
+```
+带备忘的自底向上的迭代动态规划
+```
+
+[Leetcode Q322](java_src/322.零钱兑换.java) 零钱兑换
+```
+带备忘的自底向上的迭代动态规划
 ```
