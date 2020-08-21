@@ -2,7 +2,9 @@
 [大佬的技术总结](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hua-dong-chuang-kou-ji-qiao-jin-jie)
 滑动窗口的框架：
 ```
+滑动窗口算法就是专门处理子串/子数组问题
 当需要检测任意子字符串，用滑动窗口
+滑动窗口算法无非就是双指针形成的窗口扫描整个数组/子串
 int left = 0, right = 0;
 
 while (right < s.size()) {`

@@ -37,6 +37,11 @@ Using the linkedlist to add two numbers. It is necessary to notice edge cases: n
 // 1->4->3->2->5
 ```
 
+[Leetcode Q25](java_src/25.K个一组翻转链表.java) K个一组翻转链表
+```
+递归翻转链表
+```
+
 ## 链表的合并
 ---
 [Leetcode Q21](java_src/21.合并两个有序链表.java) 合并两个有序链表
@@ -49,4 +54,26 @@ Using the linkedlist to add two numbers. It is necessary to notice edge cases: n
 用分治的方法进行合并。分治的策略：edge case->divide->conquer->combine，分治时候function的参数需要start end
 顺序合并: 按顺序依次merge two lists
 优先序列：将每个list的头结点（最小的）加入优先队列，每次remove的就是最小的node，一旦remove了就这个结点后面next的node之后全部遍历完
+```
+
+[Leetcode Q160](java_src/160.相交链表.java) 160.相交链表
+```
+设 A 的长度为 a + c，B 的长度为 b + c，其中 c 为尾部公共部分长度，可知 a + c + b = b + c + a。
+
+当访问 A 链表的指针访问到链表尾部时，令它从链表 B 的头部开始访问链表 B；同样地，当访问 B 链表的指针访问到链表尾部时，令它从链表 A 的头部开始访问链表 A。这样就能控制访问 A 和 B 两个链表的指针能同时访问到交点。
+```
+
+[Leetcode Q19](java_src/19.删除链表的倒数第N个节点.java) 19.删除链表的倒数第N个节点
+```
+快慢指针，快指针先走n步，然后快慢一起走，直到快指针走到最后，要注意的是可能是要删除第一个节点，这个时候可以直接返回head.next
+```
+
+[Leetcode Q24](java_src/24.两两交换链表中的节点.java) 两两交换链表中的节点
+```
+看代码
+```
+
+[Leetcode Q725](java_src/725.分隔链表.java) 725.分隔链表
+```
+看代码
 ```
