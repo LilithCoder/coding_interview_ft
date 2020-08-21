@@ -50,7 +50,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [回文串](interview_code/回文串.md)
 - [在无限序列中随机抽取元素](interview_code/在无限序列中随机抽取元素.md)
 - [股票买卖问题](interview_code/股票买卖问题.md)
-- [亚麻](interview_code/亚麻.md)
+- [其他](interview_code/亚麻.md)
 
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
