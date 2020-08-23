@@ -82,3 +82,4 @@ This is a brand-new repository which record the whole process of my full-time jo
 
 2020/08/13: [网易游戏 游戏研发工程师/数据研发工程师（后端）](https://game.campus.163.com/position) (submitted)
 
+2020/08/22: [腾讯 后台开发](https://join.qq.com/post.php?post=101&pid=1)
