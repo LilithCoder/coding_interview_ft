@@ -6,27 +6,34 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+// 本题思路：
+// 如果链表有N个结点，则分隔的链表中每个部分中都有n/k个结点，且前N%k部分有一个额外的结点。我们可以用一个简单的循环来计算N。
+// 现在对于每个部分，我们已经计算出该部分有多少个节点：width + (i < remainder ? 1 : 0)。我们创建一个新列表并将该部分写入该列表。
 class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
-        int N = 0;
         ListNode curr = root;
+        int n = 0;
         while (curr != null) {
-            N++;
+            n++;
             curr = curr.next;
         }
-        int mod = N % k;
-        int size = N / k;
-        ListNode[] result = new ListNode[k];
         curr = root;
-        for (int i = 0; curr != null && i < k; i++) {
-            result[i] = curr;
-            int currSize = size + (mod-- > 0 ? 1 : 0);
-            for (int j = 0; j < currSize - 1; j++) {
-                curr = curr.next;
+        int width = n / k;
+        int remainder = n % k;
+        ListNode[] result = new ListNode[k];
+        for (int i = 0; i < k; i++) {
+            if (curr != null) {
+                result[i] = curr;
+                int size =  width + (remainder-- > 0 ? 1 : 0);
+                for (int j = 0; j < size - 1; j++) {
+                    curr = curr.next;
+                }
+                ListNode nxt = curr.next;
+                curr.next = null;
+                curr = nxt;
+            } else {
+                result[i] = null;
             }
-            ListNode next = curr.next;
-            curr.next = null;
-            curr = next;
         }
         return result;
     }

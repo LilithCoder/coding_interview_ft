@@ -31,11 +31,12 @@
 class Solution {
     // 递归
     public ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) return head;
-        ListNode p = reverseList(head.next);
+        if (head == null) return null;
+        if (head.next == null) return head;
+        ListNode reversed_head = reverseList(head.next);
         head.next.next = head;
         head.next = null;
-        return p;
+        return reversed_head;
     }
 }
 // @lc code=end
