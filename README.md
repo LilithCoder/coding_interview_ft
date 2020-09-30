@@ -8,7 +8,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [Java source code](interview_code/java_src)
 - [Python source code](interview_code/python_src)
 ## Interview questions collection
-- [java面试](interview_questions/14_Java 秋招必备.md)
+- [java面试](interview_questions/14_Java_秋招必备.md)
 - [ByteDance Interview Questions](interview_questions/ByteDance_backend.md)
 ## Algorithm_review
 - [数据结构 Data Structures](algorithm/data_structure.md)
