@@ -10,6 +10,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 ## Interview questions collection
 - [java面试](interview_questions/14_Java_秋招必备.md)
 - [ByteDance Interview Questions](interview_questions/ByteDance_backend.md)
+- [字节跳动前端](interview_questions/字节跳动前端.md)
 ## Algorithm_review
 - [数据结构 Data Structures](algorithm/data_structure.md)
 - [排序 Sorting Algoritms](algorithm/sorting_algoritms.md)
@@ -30,7 +31,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [分治策略](interview_code/divide_and_conquer.md)
 - [DFS](interview_code/dfs.md)
 - [BFS](interview_code/bfs.md)
-- [数与位](interview_code/math.md)
+- [数学与位](interview_code/math.md)
 - [双指针](interview_code/two_pointers.md)
 - [二分查找](interview_code/binary_search.md)***************************
 - [回溯算法](interview_code/backtracking.md)
@@ -45,6 +46,7 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [计算器](interview_code/计算器.md)
 - [前缀和](interview_code/前缀和.md)
 - [字符串乘法](interview_code/字符串乘法.md)
+- [字符串](interview_code/字符串.md)
 - [FloodFill算法](interview_code/FloodFill算法.md)
 - [接雨水](interview_code/接雨水.md)
 - [贪心算法](interview_code/贪心算法.md)
@@ -57,6 +59,9 @@ This is a brand-new repository which record the whole process of my full-time jo
 - [括号问题](interview_code/括号问题.md)***************************
 - [前缀树](interview_code/前缀树.md)***************************
 - [并查集](interview_code/并查集.md)***************************
+- [拓扑排序](interview_code/拓扑排序.md)
+- [排序](interview_code/排序.md)
+- [堆](interview_code/堆.md)
 ## Daily Log
 ### [My leetcode submission record](https://leetcode-cn.com/u/weilin_g/)
 
@@ -144,3 +149,17 @@ This is a brand-new repository which record the whole process of my full-time jo
 2020/09/29:[GrowingIO服务端开发工程师-杭州（2021届毕业生）](https://www.growingio.com/joinus/jobs/1f105d92-9555-4849-b0f3-01d3deb590c6/apply-status)
 
 2020/09/29:[后端开发实习-抖音]()
+
+2020/09/30:[robinhood Backend Engineer (New Grad)](https://boards.greenhouse.io/robinhood/jobs/2214220?s=LinkedIn&source=LinkedIn#app)
+
+2020/10/07:[Oppo Java工程师(Android)](https://xiaoyuan.zhaopin.com/job/CC000347841J90000048000)
+
+2020/10/07:[平安科技java](https://campus.pingan.com/tech/positionDetail?positionId=c16b97da9ce035b483026f38b24fa623)
+
+2020/10/07:[携程](https://ctrip.zhiye.com/zpdetail/760035062)
+
+2020/10/07:[米哈呦 golang](https://join.mihoyo.com/#/job/75bcfbf1-4a14-46ea-9d94-ded5317fb6ed)
+
+2020/10/07:[京东 Java开发工程师](http://campus.jd.com/web/job/job_index?t=6&dicCode=1)
+
+2020/10/07:[三星java](https://dearsamsung.zhiye.com/xzzw?k=&c=3100&p=null&day=-1&PageIndex=1&class=2#zzzw)
